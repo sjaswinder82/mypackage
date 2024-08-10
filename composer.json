@@ -1,0 +1,18 @@
+{
+    "name": "sjaswinder82/mypackage",
+    "description": "This is a test package",
+    "version": "1.0.0",
+    "type": "library",
+    "autoload": {
+        "psr-4": {
+            "sjaswinder82\\MyPackage\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "sjaswinder82\\MyPackage\\MyPackageServiceProvider"
+            ]
+        }
+    }
+}
